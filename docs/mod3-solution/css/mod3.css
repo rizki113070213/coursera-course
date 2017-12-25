@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#header-nav {
+  /*height: 70px;*/
+  background-color: #775577;
+}
+
+div.navbar-brand a {
+  text-decoration: none;
+}
+
+div.navbar-brand a h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.navbar-toggle {
+  margin-top: 15px;
+}
+
+#nav-list {
+  background-color: #ffba74;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.navbar-nav>li>a {
+  border-bottom: 1px solid;
+}
+
+main {
+  margin-top: auto;
+}
+
+div#container {
+  background-color: #00FFFF;
+  top: 60px;
+}
+
+section{
+  position: relative;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: #adada1;
+}
+
+.menu-title{
+  font-weight: 600;
+  font-size: 21px;
+  text-align: center;
+}
+
+.title1{
+  color: #53a893;
+}
+
+.title2{
+  color: #ffba74;
+}
+
+.title3{
+  color: #cc0073;
+}
+
+.menu-content{
+  margin-top: -10px;
+  padding: 5px;
+}
+
+/************************** Large devices only *******************/
+@media (min-width: 1200px) {
+  div.navbar-brand a h1 {
+    margin: -10px auto 0 -50px;
+  }
+}
+
+/************************** Medium devices only *******************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  div.navbar-brand a h1 {
+    margin: -10px auto 0 -50px;
+  }
+}
+
+/************************** Small devices only *******************/
+@media (min-width: 768px) and (max-width: 991px) {
+  #header-nav {
+    padding: 0 0 15px;
+  }
+}
